@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD6DEC4181033430045CB2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6DEC3181033430045CB2A /* UIKit.framework */; };
+		BCD6DEC6181033430045CB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6DEC5181033430045CB2A /* Foundation.framework */; };
+		BCD6DEC8181033430045CB2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6DEC7181033430045CB2A /* CoreGraphics.framework */; };
+		BCD6DECE181033430045CB2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD6DECC181033430045CB2A /* InfoPlist.strings */; };
+		BCD6DED0181033430045CB2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD6DECF181033430045CB2A /* main.m */; };
+		BCD6DED4181033430045CB2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD6DED3181033430045CB2A /* AppDelegate.m */; };
+		BCD6DED6181033430045CB2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD6DED5181033430045CB2A /* Default.png */; };
+		BCD6DED8181033430045CB2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD6DED7181033430045CB2A /* Default@2x.png */; };
+		BCD6DEDA181033430045CB2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD6DED9181033430045CB2A /* Default-568h@2x.png */; };
+		BCD6DEE2181034FE0045CB2A /* SwipeTableViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD6DEE1181034FE0045CB2A /* SwipeTableViewCellController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCD6DEC0181033430045CB2A /* SwipeTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD6DEC3181033430045CB2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCD6DEC5181033430045CB2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCD6DEC7181033430045CB2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCD6DECB181033430045CB2A /* SwipeTableViewCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		BCD6DECD181033430045CB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD6DECF181033430045CB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD6DED1181033430045CB2A /* SwipeTableViewCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeTableViewCell-Prefix.pch"; sourceTree = "<group>"; };
+		BCD6DED2181033430045CB2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCD6DED3181033430045CB2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCD6DED5181033430045CB2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BCD6DED7181033430045CB2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BCD6DED9181033430045CB2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BCD6DEE0181034FE0045CB2A /* SwipeTableViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTableViewCellController.h; sourceTree = "<group>"; };
+		BCD6DEE1181034FE0045CB2A /* SwipeTableViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTableViewCellController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD6DEBD181033430045CB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6DEC4181033430045CB2A /* UIKit.framework in Frameworks */,
+				BCD6DEC6181033430045CB2A /* Foundation.framework in Frameworks */,
+				BCD6DEC8181033430045CB2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD6DEB7181033430045CB2A = {
+			isa = PBXGroup;
+			children = (
+				BCD6DEE0181034FE0045CB2A /* SwipeTableViewCellController.h */,
+				BCD6DEE1181034FE0045CB2A /* SwipeTableViewCellController.m */,
+				BCD6DEC9181033430045CB2A /* SwipeTableViewCell */,
+				BCD6DEC2181033430045CB2A /* Frameworks */,
+				BCD6DEC1181033430045CB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD6DEC1181033430045CB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6DEC0181033430045CB2A /* SwipeTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD6DEC2181033430045CB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6DEC3181033430045CB2A /* UIKit.framework */,
+				BCD6DEC5181033430045CB2A /* Foundation.framework */,
+				BCD6DEC7181033430045CB2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD6DEC9181033430045CB2A /* SwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6DED2181033430045CB2A /* AppDelegate.h */,
+				BCD6DED3181033430045CB2A /* AppDelegate.m */,
+				BCD6DECA181033430045CB2A /* Supporting Files */,
+			);
+			path = SwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		BCD6DECA181033430045CB2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6DECB181033430045CB2A /* SwipeTableViewCell-Info.plist */,
+				BCD6DECC181033430045CB2A /* InfoPlist.strings */,
+				BCD6DECF181033430045CB2A /* main.m */,
+				BCD6DED1181033430045CB2A /* SwipeTableViewCell-Prefix.pch */,
+				BCD6DED5181033430045CB2A /* Default.png */,
+				BCD6DED7181033430045CB2A /* Default@2x.png */,
+				BCD6DED9181033430045CB2A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD6DEBF181033430045CB2A /* SwipeTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD6DEDD181033430045CB2A /* Build configuration list for PBXNativeTarget "SwipeTableViewCell" */;
+			buildPhases = (
+				BCD6DEBC181033430045CB2A /* Sources */,
+				BCD6DEBD181033430045CB2A /* Frameworks */,
+				BCD6DEBE181033430045CB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTableViewCell;
+			productName = SwipeTableViewCell;
+			productReference = BCD6DEC0181033430045CB2A /* SwipeTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD6DEB8181033430045CB2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = luolisheng;
+			};
+			buildConfigurationList = BCD6DEBB181033430045CB2A /* Build configuration list for PBXProject "SwipeTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD6DEB7181033430045CB2A;
+			productRefGroup = BCD6DEC1181033430045CB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD6DEBF181033430045CB2A /* SwipeTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD6DEBE181033430045CB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6DECE181033430045CB2A /* InfoPlist.strings in Resources */,
+				BCD6DED6181033430045CB2A /* Default.png in Resources */,
+				BCD6DED8181033430045CB2A /* Default@2x.png in Resources */,
+				BCD6DEDA181033430045CB2A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD6DEBC181033430045CB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6DED0181033430045CB2A /* main.m in Sources */,
+				BCD6DED4181033430045CB2A /* AppDelegate.m in Sources */,
+				BCD6DEE2181034FE0045CB2A /* SwipeTableViewCellController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCD6DECC181033430045CB2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD6DECD181033430045CB2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD6DEDB181033430045CB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD6DEDC181033430045CB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD6DEDE181033430045CB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeTableViewCell/SwipeTableViewCell-Prefix.pch";
+				INFOPLIST_FILE = "SwipeTableViewCell/SwipeTableViewCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCD6DEDF181033430045CB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeTableViewCell/SwipeTableViewCell-Prefix.pch";
+				INFOPLIST_FILE = "SwipeTableViewCell/SwipeTableViewCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD6DEBB181033430045CB2A /* Build configuration list for PBXProject "SwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD6DEDB181033430045CB2A /* Debug */,
+				BCD6DEDC181033430045CB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD6DEDD181033430045CB2A /* Build configuration list for PBXNativeTarget "SwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD6DEDE181033430045CB2A /* Debug */,
+				BCD6DEDF181033430045CB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD6DEB8181033430045CB2A /* Project object */;
+}
